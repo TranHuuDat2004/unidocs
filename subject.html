@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tài liệu môn học - UniDocs</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="logo.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
@@ -130,12 +132,10 @@
         <!-- Logo -->
         <!-- Logo & Close Button -->
         <div class="p-6 flex items-center justify-between">
-            <div class="flex items-center gap-3 cursor-pointer" onclick="window.location.href='index.html'">
-                <div class="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center text-white shadow-lg">
-                    <i class="ph-bold ph-books text-xl"></i>
-                </div>
+            <a href="index.html" class="flex items-center gap-3 group">
+                <img src="logo.png" alt="UniDocs Logo" class="w-9 h-9 object-contain rounded-xl shadow-md group-hover:scale-105 transition-transform">
                 <span class="font-bold text-xl text-slate-800">UniDocs</span>
-            </div>
+            </a>
             <!-- Close Sidebar Button (Mobile) -->
             <button onclick="toggleSidebar()"
                 class="min-[1400px]:hidden p-2 text-slate-400 hover:text-slate-600 hover:bg-slate-100 rounded-lg transition">

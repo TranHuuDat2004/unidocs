@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UniDocs - Kho tài liệu môn học</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="logo.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <style>
@@ -161,12 +163,10 @@
         <!-- TOP NAVIGATION -->
         <nav class="container mx-auto px-6 py-6 relative z-20 flex items-center justify-between">
             <!-- Logo -->
-            <div class="flex items-center gap-2">
-                <span class="bg-indigo-600 text-white p-1.5 rounded-lg shadow-sm flex items-center justify-center">
-                    <i class="ph-bold ph-books text-lg"></i>
-                </span>
+            <a href="index.html" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="UniDocs Logo" class="w-8 h-8 object-contain rounded-lg shadow-sm group-hover:scale-105 transition-transform">
                 <span class="text-xl font-bold text-slate-800 tracking-tight">UniDocs</span>
-            </div>
+            </a>
 
             <!-- GitHub Button -->
             <a href="https://github.com/TranHuuDat2004/UniDocs" target="_blank"
@@ -423,7 +423,10 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
                 <!-- Col 1 -->
                 <div class="lg:col-span-1 pr-4">
-                    <h3 class="text-2xl font-bold text-indigo-600 mb-4 tracking-tight">UniDocs</h3>
+                    <div class="flex items-center gap-2.5 mb-4">
+                        <img src="logo.png" alt="UniDocs Logo" class="w-7 h-7 object-contain rounded-lg shadow-sm">
+                        <h3 class="text-2xl font-bold text-indigo-600 tracking-tight">UniDocs</h3>
+                    </div>
                     <p class="text-slate-500 text-sm leading-relaxed">
                         Hệ thống lưu trữ và chia sẻ tài liệu học tập miễn phí, giúp sinh viên dễ dàng tiếp cận với nguồn
                         giáo trình, bài giảng và đề thi chất lượng. Toàn bộ tài liệu được đóng góp và chia sẻ bởi cộng
